@@ -35,7 +35,7 @@ async def start(client, message):
                text="""<b>أهلا بك عزيزي،
 
 من خلال هذا البوت يمكنك تحميل الاغاني والفيديوهات من اليوتيوب اضغط على الخيارات بالأسفل لمزيد من المعلومات 
-▷ BY : @RR7PP
+▷ BY : @wsh22
 </b>""",   
                             reply_markup=InlineKeyboardMarkup(
                                 [
@@ -56,7 +56,7 @@ async def help(client, message):
 
 فقط ارسل رابط الفيديو او الاغنية لتحميلها وارسالها لك
 
-<b>▷ DEV :</b> @RR7PP""",
+<b>▷ DEV :</b> @wsh22""",
         reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
@@ -75,19 +75,17 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b><u>YOUTUBE BOT INFO</u></b>
 
-<b>▷ ‍🔧 المطور:</b> <a href="https://t.me/RR7PP">اضغط هنا</a>
+<b>▷ ‍🔧 المطور:</b> <a href="https://t.me/wsh22">اضغط هنا</a>
 
 <b>▷ 📚 المكتبة:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>▷ 📢 قناة السورس:</b> @JMTHON
-
-<b>▷ 🌀 ملفات السورس:</b> <a href="https://github.com/RR9R7/Youtube">اضغط هنا</a>""",
+<b>▷ 📢 قناة السورس:</b> @wsh23 """,
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
                                             "🔙 رجـوع", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "المطـور ⛓️️", url="https://t.me/RR7PP"),
+                                            "المطـور ⛓️️", url="https://t.me/wsh22"),
                                   ],]
                             ),        
             disable_web_page_preview=True,        
@@ -119,7 +117,7 @@ async def ytdl_with_button(c: Client, message: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("قناة السورس", url=f"https://t.me/JMTHON")
+                            InlineKeyboardButton("قناة السورس", url=f"https://t.me/wsh23")
                         ]
                     ]
                 ),
@@ -129,7 +127,7 @@ async def ytdl_with_button(c: Client, message: Message):
         except Exception:
             await c.send_message(
                 chat_id=message.chat.id,
-                text="هنالك شي خطا تواصل مع مطوري [اضغط هنة](https://t.me/RR7PP).",
+                text="هنالك شي خطا تواصل مع مطوري [اضغط هنة](https://t.me/wsh22).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -348,7 +346,7 @@ async def button(bot, update):
 print(
     """
 اشتغل البوت بنجاح ✅
-اشترك @JMTHON
+اشترك @wsh23
 """
 )
 
