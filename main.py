@@ -41,7 +41,7 @@ async def start(client, message):
                                 [
                                 [
                                         InlineKeyboardButton('قائمة المساعدة', callback_data="help"),
-                                        InlineKeyboardButton('▷ DEV', url='https://T.ME/RR7PP')
+                                        InlineKeyboardButton('▷ DEV', url='https://T.ME/wsh23')
                                     ],]
                             ),        
             disable_web_page_preview=True,        
